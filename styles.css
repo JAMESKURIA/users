@@ -22,7 +22,6 @@ span {
 }
 
 .card-container {
-  background-color: tomato;
   height: max(600px, 60%);
   width: min(350px, 40%);
   border-radius: 5px;
@@ -91,6 +90,7 @@ span {
   display: flex;
   flex-direction: column;
   gap: 0.4em;
+  flex: 1;
 }
 .profile-name span:nth-of-type(1) {
   font-size: 16px;
